@@ -8,9 +8,27 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        anuphan: ["Anuphan", "sans-serif"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: {
+          DEFAULT: '#0B0E18',
+          10: '#101423',
+        },
+        secondary: {
+          DEFAULT: '#FCFCFD',
+          30: '#313856',
+          20:'#777E90',
+          10: '#C0C0C9',
+        },
+        blue: {
+          20: '#97CFFD',
+          10: '#4EAEFD',
+        },
+        'dark-primary': '#222',
+        'dark-secondary': '#333',
+        'light-primary': '#fff',
       },
     },
   },
