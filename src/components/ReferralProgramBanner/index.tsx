@@ -12,7 +12,7 @@ const ReferralProgramBanner = () => {
           "linear-gradient(90deg, rgba(62, 162, 244, 0) -100%, rgba(66, 62, 244, 0.1) 103.18%)"
       }}
     >
-      <div className="flex justify-center md:justify-between items-center p-10 flex-wrap md:flex-nowrap">
+      <div className="flex justify-center md:justify-between items-center py-4 px-4 md:px-10 flex-wrap md:flex-nowrap">
         <Program />
         <Banner />
       </div>
