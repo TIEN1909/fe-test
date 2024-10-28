@@ -11,7 +11,7 @@ const Program = () => {
       <p className="text-[13px] text-secondary-10 mt-3">
         Earn rebates and commissions by inviting friends.
       </p>
-      <p className="text-[13px] text-secondary-10">
+      <p className="text-[13px] text-secondary-10 mt-2">
         Grow your network and benefit from our 6-tier reward system.
       </p>
       <Link
