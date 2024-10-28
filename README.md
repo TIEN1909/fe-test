@@ -4,6 +4,7 @@
 
 `Run app`
 - https://github.com/TIEN1909/fe-test.git
+- cd fe-test
 
 Install it and run:
 
