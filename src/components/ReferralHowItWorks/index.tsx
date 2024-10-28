@@ -52,7 +52,7 @@ const ReferralHowItWorks = () => {
               className="flex items-center justify-center w-[46px] h-[46px] rounded-sm"
               style={{
                 background:
-                  "conic-gradient(from 124.76deg at 49.86% 37.95%, #A185F4 -5.64deg, #ABECA2 0.06deg, #2FB3FE 111.61deg, #6A8EEA 233.41deg, #A185F4 310.35deg, #ABECA2 360.06deg)"
+                  "conic-gradient(from 124.76deg at 49.86% 37.95%, #A185F4 -5.64deg, #ABECA2 0.06deg, #2FB3FE 111.61deg, #6A8EEA 233.41deg, #A185F4 305.35deg, #ABECA2 360.06deg)"
               }}
             >
               {work.icon}
@@ -61,7 +61,9 @@ const ReferralHowItWorks = () => {
               <h3 className="text-base text-secondary font-medium mt-6">
                 {work.id}. {work.title}
               </h3>
-              <p className="text-secondary-10 mt-2 text-[13px]">{work.description}</p>
+              <p className="text-secondary-10 mt-2 text-[13px] leading-6">
+                {work.description}
+              </p>
             </div>
           </div>
         ))}
